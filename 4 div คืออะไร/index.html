@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- img คือ element ที่ใช้แสดงรูปภาพในหน้าเว็บ
+            src คือ attribute ที่ใช้ระบุแหล่งที่มาของรูปภาพ
+            alt คือ attribute ที่ใช้ระบุข้อความสำรองเมื่อรูปภาพไม่สามารถแสดงได้ -->
+            <img src="resource/logo/tropical-leaves_7409188.png" alt="logo" class="logo">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/layout">Layout</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- class ใช้ระบุ "กลุ่ม label ป้ายกำกับTag" ของ element ที่มีลักษณะเหมือนกัน
+        1 class ใช้ซ้ำกับ element ได้ไม่จำกัด
+        ใช้กับ CSS เพื่อกำหนดสไตล์ที่ใช้ซ้ำได้
+        ใช้กับ JavaScript เพื่อเลือก element ที่ต้องการ
+        ใช่ .ชื่อclass { ... } ใน CSS
+        ใช้ document.getElementsByClassName("ชื่อclass") ใน JavaScript
+        -------------------------------------------------------------- 
+        id ใช้ระบุ "เอกลักษณ์เฉพาะตัว" ของ element หนึ่งเดียว
+        1 id ต้องไม่ซ้ำกันในหน้าเดียว (Unique)
+        ใช้กับ CSS เพื่อกำหนดสไตล์เฉพาะเจาะจง
+        ใช้กับ JavaScript เพื่อเลือก element เฉพาะเจาะจง
+        ใช้ #ชื่อid { ... } ใน CSS
+        ใช้ document.getElementById("ชื่อid") ใน JavaScript -->
+
+        <!-- content -->
+        <section class="content">
+            <h2>Content Section</h2>
+            <p>This is the content section of the webpage.</p>
+        </section>
+
+        <!-- feature bar -->
+        <section class="feature">
+
+            <h2>Feature Bar Section</h2>
+            <p>This is the feature bar section of the webpage.</p>
+        </section>
+
+    </main>
+</body>
+</html>

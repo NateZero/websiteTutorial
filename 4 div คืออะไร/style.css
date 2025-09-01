@@ -1,0 +1,23 @@
+
+/* ใช้ ".ตามด้วยชื่อclass{...} เพื่อเลือก element ที่ต้องการใน CSS */
+.content{
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.feature{
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.logo{
+    /* width คือ attribute ที่ใช้กำหนดความกว้างของรูปภาพ */
+    width: 50px;
+    /* height คือ attribute ที่ใช้กำหนดความสูงของรูปภาพ */
+    height: auto;
+    /* vertical-align คือ attribute ที่ใช้จัดแนวแกนตั้งของรูปภาพ */
+    vertical-align: middle;
+    /* margin-right คือ attribute ที่ใช้กำหนดระยะห่างด้านขวาของรูปภาพ */
+    margin-right: 10px;
+}
